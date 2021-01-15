@@ -1,0 +1,115 @@
+main, html, body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+
+/*Header*/
+header{
+    width: 100vw;
+    height: 17vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 3px 6px #CBCBCB;
+}
+
+#logo{
+    width: 45vw;
+    margin-left: 27.5vw;
+    margin-right: 27.5vw;
+    margin-top: 5vw;
+}
+
+
+/*Haut de page*/
+#localisation{
+    width: 100vw;
+    height: 13vw;
+    background-color: #EAEAEA;
+    margin-top: 17vw;
+    padding-top:2vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+    color: #353535;
+}
+
+p.geolocalisation{
+    font-size: 4.25vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-left: 4.25vw;
+}
+
+#reservation{
+    background-color:#F6F6F6;
+    margin: 0px;
+    padding:0px;
+    padding: 10vw;
+    padding-bottom:16vw ;
+    height: 52vw;
+    text-align: center;
+    color: #353535;
+}
+
+h1{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 7vw;
+    font-weight: 700 ;
+}
+
+p.accueil{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5vw;
+    font-weight: 400 ;
+    padding-bottom: 8vw;
+    margin: 0vw;
+    margin-top:6vw;
+
+}
+
+.call_to_action{
+    height: 14vw ;
+    width: 58vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600 ;
+    color: white;
+    font-size:4.25vw;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 7vw;
+    margin: 0vw;
+    padding: 0vw;
+    border:none;
+    box-shadow: 0px 3px 6px #CBCBCB;
+}
+
+#section_fonctionnement{
+    background-color: white;
+    color: #353535;
+    padding-top:14vw;
+    padding-right: 5vw;
+    padding-left:5vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600 ;
+    color: #353535;
+    font-size:7vw;
+}
