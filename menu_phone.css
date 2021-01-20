@@ -1,0 +1,139 @@
+main, html, body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+header{
+    width: 100vw;
+    height: 17vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 3px 6px #414040;
+    z-index: 40;
+}
+
+#logo{
+    width: 45vw;
+    margin-left: 27.5vw;
+    margin-right: 27.5vw;
+    margin-top: 5vw;
+}
+
+/*IMAGE*/
+.image{
+    height:80vw;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15vw;
+   
+   
+}
+
+img{
+    object-fit: cover;
+}
+#image_hero{
+    height: 100%;
+}
+
+/*MENU*/
+#section_menu{
+    background-color:#F6F6F6;
+    transform: translateY(-14vw);
+    border-radius: 7vw;
+    width: 90vw;
+    padding:5vw;
+}
+
+#restaurant{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.far.fa-heart{
+    font-size: 7vw;
+}
+
+h1{
+    font-family: 'Shrikhand', cursive;
+    font-size: 7vw;;
+    }
+
+h2{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #7B7B7B;
+    font-size: 5vw;
+}
+
+.plat{
+    background-color: white;
+    border-radius: 7vw;
+    padding: 5vw;
+    box-shadow: 0px 3px 7px #DDDDDD;
+    margin-bottom: 4vw ;
+}
+
+.plat{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+h3.nom_plat{
+    margin: 0px;
+    padding:0px ;
+}
+p.description_plat{
+    margin:0px;
+    padding: 0px;
+    
+    font-weight: 300;
+}
+
+.call_to_action{
+    height: 14vw ;
+    width: 58vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600 ;
+    color: white;
+    font-size:4.25vw;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 7vw;
+    margin: 0vw;
+    padding: 0vw;
+    border:none;
+    box-shadow: 0px 3px 6px #CBCBCB;
+}
+
+footer{
+    background-color: #353535;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    padding: 5vw;
+    font-size: 4vw;
+}
+
+.logo_footer{
+    width: 32vw;
+    padding-bottom: 5vw;
+}
+
+h4{
+    font-size: 4.8vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600 ;
+    margin: 0px;
+}
+
+
+.fas.fa-utensils, .fas.fa-hands-helping, .fas.fa-map-marker-alt{
+    margin-right: 4vw;
+}
