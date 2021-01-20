@@ -269,15 +269,15 @@ footer{
     background-color: #353535;
     font-family: 'Roboto', sans-serif;
     color:white;
-    padding: 6vw;
+    padding: 5vw;
     font-size: 4vw;
 }
 
 .logo_footer{
     width: 32vw;
-    padding-bottom: 6vw;
+    padding-bottom: 5vw;
 }
 
-.fas.fa-utensils, .fas.fa-hands-helping{
+.fas.fa-utensils, .fas.fa-hands-helping, .fas.fa-map-marker-alt{
     margin-right: 4vw;
 }
