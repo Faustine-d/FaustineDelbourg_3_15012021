@@ -4,6 +4,12 @@ main, html, body{
     width: 100vw;
 }
 
+
+a:link 
+{ 
+ text-decoration:none;
+} 
+
 /*Header*/
 header{
     width: 100vw;

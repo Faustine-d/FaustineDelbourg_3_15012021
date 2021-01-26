@@ -5,6 +5,11 @@ main, html, body{
     font-family: 'Roboto', sans-serif;
 }
 
+a:link 
+{ 
+ text-decoration:none; 
+}
+
 /*Header*/
 header{
     width: 100vw;
@@ -46,7 +51,7 @@ img{
 #section_menu{
     background-color:#F6F6F6;
     transform: translateY(-14vw);
-    border-radius: 7vw;
+    border-radius: 7vw 7vw 0vw 0vw;
     width: 90vw;
     padding:5vw;
 }
@@ -63,7 +68,8 @@ img{
 
 h1{
     font-family: 'Shrikhand', cursive;
-    font-size: 7vw;;
+    font-size: 7vw;
+    margin-bottom: 0px;;
     }
 
 h2{
@@ -71,7 +77,16 @@ h2{
     font-weight: 300;
     color: #7B7B7B;
     font-size: 5vw;
+    margin-bottom: 2vw;
+    margin-top:12vw;
+  
 }
+.ligne_verte{
+    border-bottom: 1.5vw solid #99E2D0 ;
+    width: 15vw;
+    margin-bottom: 5vw;;
+   
+    }
 
 .plat{
     background-color: white;
@@ -84,7 +99,7 @@ h2{
 .plat{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end
+    align-items: flex-end;
 }
 
 h3.nom_plat{
@@ -94,7 +109,7 @@ h3.nom_plat{
 p.description_plat{
     margin:0px;
     padding: 0px;
-    
+    margin-top:1vw;
     font-weight: 300;
 }
 
@@ -111,6 +126,16 @@ p.description_plat{
     padding: 0vw;
     border:none;
     box-shadow: 0px 3px 6px #CBCBCB;
+    margin-top: 11vw ;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22vw;
+}
+
+button.call_to_action{
+    display: flex;
 }
 
 footer{
