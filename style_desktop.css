@@ -34,8 +34,12 @@ header{
 
 /*Haut de page*/
 
+#section_haut_de_page{
+    height: 25vw;
+}
+
 .fas.fa-map-marker-alt{
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 p{
@@ -59,7 +63,7 @@ p{
 }
 
 p.geolocalisation{
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     padding-left: 4.25vw;
@@ -73,8 +77,8 @@ p.geolocalisation{
     padding:0px;
     padding: 5vw;
     padding-bottom:16vw ;
-    height: 7vw;
-    text-align: center;
+    height: 4vw;
+    text-align: left;
     color: #353535;
 }
 
@@ -89,7 +93,7 @@ h1{
 
 p.accueil{
     font-family: 'Roboto', sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 400 ;
     padding-bottom: 2vw;
     margin: 0vw;
@@ -98,7 +102,7 @@ p.accueil{
 }
 
 .call_to_action{
-    height: 7vw ;
+    height: 4.5vw ;
     width: 29vw;
     font-family: 'Roboto', sans-serif;
     font-weight:600 ;
@@ -144,10 +148,22 @@ button{
 
 /*FONCTIONNEMENT*/
 
+
+#section_fonctionnement{
+width: 90vw;
+}
+
+#liste{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;}
+
+    
 #fonctionnement{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    width: 90vw;
     
 }
 .bouton_fonctionnement{
@@ -155,8 +171,8 @@ button{
     background-color: #F6F6F6;
     display: flex;
     align-content: center;
-    width: 10vw;
-    height:11vw;
+    width: 25vw;
+    height:7vw;
     font-family: 'Roboto', sans-serif;
     font-weight:600 ;
     color: black;
@@ -170,7 +186,7 @@ button{
    
     margin-top: 6vw;
     color: #7E7E7E;
-    margin-left: 6vw;
+    margin-left: 2vw;
 }
 
 .number{
@@ -189,24 +205,27 @@ button{
 .txt_fonctionnement{
     color: black;
     margin-left: 2vw;
+    font-size: 1.5vw;
 }
 
 
 /*RESTAURANT*/
+
+
 #section_restaurants{
     background-color: #F6F6F6;
     padding-top:14vw;
     padding-right: 5vw;
     padding-left:5vw;
     width: 100vw;
-    display: flex;
-    flex-direction: row;
+  
     padding-bottom: 5vw;
 }
 
-#section_restaurants:first-child{
+#restaurants{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
 }
 
 .article_restaurant{
