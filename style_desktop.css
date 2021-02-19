@@ -204,7 +204,7 @@ justify-content: space-between;}
     display: flex;
     flex-direction: row;
     align-items: center;
-   
+    
     margin-top: 4vw;
     color: #7E7E7E;
     margin-left: 2vw;
@@ -219,7 +219,7 @@ justify-content: space-between;}
     color: white;
     align-content: center;
     justify-content: center;align-items: center;
-    transform: translateX(-3vw);
+    transform: translateX(-1vw);
     margin-right: 0.5vw;
 
 }
