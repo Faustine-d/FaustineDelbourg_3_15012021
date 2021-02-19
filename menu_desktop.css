@@ -109,10 +109,12 @@ h1{
 
 .nom_plat{
 font-size: 1.3vw;
+align-self: flex-start;
 }
 
 .description_plat, .prix{
     font-size: 1.3vw;
+  
 }
 
 /*BOUTON COMMANDER*/
