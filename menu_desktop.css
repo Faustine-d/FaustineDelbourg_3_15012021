@@ -6,6 +6,12 @@
     width: 100vw;
 }
 
+p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 /*Header*/
 header{
     width: 100vw;
@@ -30,7 +36,7 @@ header{
     font-size: 2vw;
     position: absolute;
     top: 1.5vw;
-    left:5vw;
+    left:2.5vw;
 }
 
 /*IMAGE*/
@@ -133,11 +139,12 @@ button.call_to_action{
 
 
 
+
 footer{
     background-color: #353535;
     font-family: 'Roboto', sans-serif;
     color:white;
-    padding: 5vw;
+    padding: 2.5vw;
     font-size: 1.5vw;
  
 }
