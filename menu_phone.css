@@ -122,6 +122,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    font-size: 4.8vw;
 }
 
 h3.nom_plat{
@@ -173,7 +174,7 @@ footer{
     padding-bottom: 5vw;
 }
 
-h4{
+h4, h3{
     font-size: 4.8vw;
     font-family: 'Roboto', sans-serif;
     font-weight:600 ;

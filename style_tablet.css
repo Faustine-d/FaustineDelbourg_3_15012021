@@ -1,0 +1,349 @@
+@media (min-width: 768px) {
+
+     
+    main, html, body{
+        margin: 0px;
+        padding: 0px;
+        width: 100vw;
+    }
+    
+    .Site {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    
+    .Site-content {
+      flex: 1;
+    }
+    
+    h1{
+        padding: 0px;
+        margin:0px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5vw;
+        font-weight: 700 ;
+        color: black;
+    }
+    
+    
+    
+    h2{
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-weight:600 ;
+        color:black;
+        font-size:2.5vw;
+    }
+    
+    h4{
+        font-size: 1.5vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight:600 ;
+       
+        margin: 0px;
+    }
+    
+    p{
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    
+    
+    a:link 
+    { 
+     text-decoration:none;
+    } 
+    
+    /*Header*/
+    header{
+        width: 100vw;
+        height: 5vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+        box-shadow: 0px 3px 6px #CBCBCB;
+        z-index: 40;
+    }
+    
+    #logo{
+        width: 15vw;
+        margin-left: 42.5vw;
+        margin-right: 42.5vw;
+        margin-top: 1vw;
+    }
+    
+    
+    /*Haut de page*/
+    
+    #section_haut_de_page{
+        height: 30vw;
+    }
+    
+    .fas.fa-map-marker-alt{
+        font-size: 1.5vw;
+    }
+    
+            /*localisation*/
+    
+    #localisation{
+        width: 100vw;
+        height: 5vw;
+        background-color: #EAEAEA;
+        margin-top: 5vw;
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: baseline;
+        color: #353535;
+    }
+    
+    p.geolocalisation{
+        font-size: 1.5vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        padding-left: 4.25vw;
+        padding: 0px;
+        padding-top: 1.5vw;
+    }
+    
+        /*réservation*/
+        #reservation{
+            background-color:#F6F6F6;
+            margin: 0px;
+            padding:0px;
+            padding: 5vw;
+            padding-bottom:15vw ;
+            height: 4vw;
+            text-align: center;
+            color: #353535;
+        }
+        
+    
+    
+    p.accueil{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5vw;
+        font-weight: 400 ;
+        padding-bottom: 4vw;
+        margin: 0vw;
+        margin-top:1vw;
+    
+    }
+    
+    .call_to_action{
+        height: 4.5vw ;
+        width: 20vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight:600 ;
+        color: white;
+        font-size:1.5vw;
+        background: linear-gradient(#FF79DA, #9356DC);
+        border-radius: 7vw;
+        margin: 0vw;
+        padding: 0vw;
+        border:none;
+        box-shadow: 0px 3px 6px #CBCBCB;
+    }
+    
+    
+    
+    
+    
+    
+    button{
+    
+        border:none;
+       background-color: #F6F6F6;
+    }
+    
+    /*FONCTIONNEMENT*/
+    
+    
+    #section_fonctionnement{
+    width: 90vw;
+    background-color: white;
+    color: #353535;
+    padding:5vw;
+    
+    }
+    
+    #liste{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    justify-content: space-between;}
+    
+        
+    #fonctionnement{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 90vw;
+        
+    }
+    .bouton_fonctionnement{
+        border-radius: 7vw;
+        background-color: #F6F6F6;
+        display: flex;
+        align-content: center;
+        width: 25vw;
+        height:7vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight:600 ;
+        color: black;
+        font-size:2vw;
+        box-shadow: 0px 3px 6px #CBCBCB;
+        padding: 0VW;
+        margin: 0VW;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        margin-top: 4vw;
+        color: #7E7E7E;
+        margin-left: 2vw;
+    }
+    
+    .number{
+        height: 3vw;
+        width: 3vw;
+        background-color: #9960DE;
+        border-radius: 4vw;
+        display: flex;
+        color: white;
+        align-content: center;
+        justify-content: center;align-items: center;
+        transform: translateX(-1vw);
+        margin-right: 0.5vw;
+    
+    }
+    .txt_fonctionnement{
+        color: black;
+        margin-left: 1vw;
+        font-size: 1.5vw;
+    }
+    
+    
+    /*RESTAURANT*/
+    
+    
+    #section_restaurants{
+        background-color: #F6F6F6;
+        padding:5vw;
+        width: 90vw;
+        padding-bottom: 0px;;
+      
+    }
+    
+    #restaurants{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      
+    }
+    
+    .article_restaurant{
+        width: 20vw;
+        height:20vw;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+       margin-top: 4vw;
+        box-shadow: 0px 3px 6px #CBCBCB;
+        border-radius: 3vw;
+       
+    }
+    .nouveau{
+        background-color: #99E2D0;
+        width: 4vw;
+        
+        position: relative;
+        bottom: 12vw; 
+        left: 13vw;
+        z-index: 30;
+       text-align: center;
+       font-family: 'Roboto', sans-serif;
+       font-weight:500 ;
+       padding:1vw;
+       color: #008766;
+       font-size: 1vw;;
+    }
+    img{
+        object-fit: cover;
+    }
+    
+    .img_restaurant{
+        width: 20vw;
+        height: 13vw;
+        border-radius: 3vw 3vw 3vw 3vw;
+        
+    }
+    
+    .img{
+        width: 100%;
+        height: 100%;
+        border-radius: 3vw 3vw 0vw 0vw;
+    }
+    
+    .info_restaurant{
+        background-color:white ;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 0vw 0vw 3vw 3vw;
+        width: 90%;
+        justify-content: space-between;
+        align-content: center;
+        HEIGHT:5VW;
+        padding: 5%;
+        
+    }
+    
+    .like_restaurant{
+        display: flex;
+        align-content: center;
+        font-size:2vw;
+    }
+    
+    .txt_restaurant{
+        font-family: 'Roboto', sans-serif;
+        font-weight:400 ;
+        color:black;
+        padding: 0vw;
+        font-size: 1.5vw;
+        line-height: 1.2em;
+        margin: 0px;
+        
+    
+    }
+    
+    /*FOOTER*/
+    
+    
+    
+    footer{
+        background-color: #353535;
+        font-family: 'Roboto', sans-serif;
+        color:white;
+        padding: 2.5vw;
+        font-size: 1.5vw;
+     
+    }
+    
+    .logo_footer{
+        width: 15vw;
+        padding-bottom: 2vw;
+    }
+    
+    .fas.fa-utensils, .fas.fa-hands-helping, .fas.fa-map-marker-alt{
+        margin-right: 1.5vw;
+    }
+    
+}

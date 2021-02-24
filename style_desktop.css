@@ -1,4 +1,4 @@
-@media (min-width: 1281px) {
+@media (min-width: 992px) {
     
     main, html, body{
     margin: 0px;
@@ -343,4 +343,5 @@ footer{
 
 .fas.fa-utensils, .fas.fa-hands-helping, .fas.fa-map-marker-alt{
     margin-right: 1.5vw;
+}
 }
