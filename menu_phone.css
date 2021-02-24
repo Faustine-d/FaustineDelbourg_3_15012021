@@ -122,7 +122,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    font-size: 4.8vw;
+    font-size: 4vw;
 }
 
 h3.nom_plat{
@@ -134,6 +134,7 @@ p.description_plat{
     padding: 0px;
     margin-top:1vw;
     font-weight: 300;
+    
 }
 
 .call_to_action{
