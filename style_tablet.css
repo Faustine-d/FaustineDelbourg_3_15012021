@@ -5,6 +5,7 @@
         margin: 0px;
         padding: 0px;
         width: 100vw;
+        background-color:#F6F6F6;
     }
     
     .Site {
@@ -19,9 +20,10 @@
     
     h1{
         padding: 0px;
+        padding-top: 1.5vw;
         margin:0px;
         font-family: 'Roboto', sans-serif;
-        font-size: 2.5vw;
+        font-size: 2.8vw;
         font-weight: 700 ;
         color: black;
     }
@@ -34,11 +36,11 @@
         font-family: 'Roboto', sans-serif;
         font-weight:600 ;
         color:black;
-        font-size:2.5vw;
+        font-size:2.8vw;
     }
     
     h4{
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         font-family: 'Roboto', sans-serif;
         font-weight:600 ;
        
@@ -62,7 +64,7 @@
     /*Header*/
     header{
         width: 100vw;
-        height: 5vw;
+        height: 8vw;
         position: fixed;
         top: 0;
         left: 0;
@@ -72,30 +74,29 @@
     }
     
     #logo{
-        width: 15vw;
-        margin-left: 42.5vw;
-        margin-right: 42.5vw;
-        margin-top: 1vw;
+        width: 20vw;
+        margin-left: 40vw;
+        margin-right: 40vw;
+        margin-top: 2.5vw;
     }
     
     
     /*Haut de page*/
     
     #section_haut_de_page{
-        height: 30vw;
+        height: 38vw;
     }
     
-    .fas.fa-map-marker-alt{
-        font-size: 1.5vw;
-    }
     
-            /*localisation*/
     
+    /*localisation*/
+    
+
     #localisation{
         width: 100vw;
-        height: 5vw;
+        height: 7vw;
         background-color: #EAEAEA;
-        margin-top: 5vw;
+        margin-top: 8vw;
         padding-top: 0px;
         display: flex;
         justify-content: center;
@@ -105,22 +106,25 @@
     }
     
     p.geolocalisation{
-        font-size: 1.5vw;
+        font-size: 2vw;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         padding-left: 4.25vw;
         padding: 0px;
-        padding-top: 1.5vw;
+        padding-top: 2.5vw;
     }
-    
-        /*réservation*/
+
+    .fas.fa-map-marker-alt{
+        font-size: 2vw;
+    }
+        
+    /*réservation*/
         #reservation{
             background-color:#F6F6F6;
             margin: 0px;
-            padding:0px;
             padding: 5vw;
-            padding-bottom:15vw ;
-            height: 4vw;
+            padding-bottom:20vw ;
+           
             text-align: center;
             color: #353535;
         }
@@ -129,25 +133,27 @@
     
     p.accueil{
         font-family: 'Roboto', sans-serif;
-        font-size: 1.5vw;
-        font-weight: 400 ;
+        font-size: 2.25vw;
+        font-weight: 200 ;
         padding-bottom: 4vw;
         margin: 0vw;
-        margin-top:1vw;
+        margin-top:2vw;
+        color: #353535;
     
     }
     
     .call_to_action{
-        height: 4.5vw ;
-        width: 20vw;
+        height: 6vw ;
+        width: 27vw;
         font-family: 'Roboto', sans-serif;
-        font-weight:600 ;
+        font-weight:500 ;
         color: white;
-        font-size:1.5vw;
+        font-size:2vw;
         background: linear-gradient(#FF79DA, #9356DC);
         border-radius: 7vw;
         margin: 0vw;
         padding: 0vw;
+      
         border:none;
         box-shadow: 0px 3px 6px #CBCBCB;
     }
@@ -171,6 +177,7 @@
     background-color: white;
     color: #353535;
     padding:5vw;
+    padding-bottom: 7vw;
     
     }
     
@@ -189,11 +196,11 @@
         
     }
     .bouton_fonctionnement{
-        border-radius: 7vw;
+        border-radius: 2.5vw;
         background-color: #F6F6F6;
         display: flex;
         align-content: center;
-        width: 25vw;
+        width: 26vw;
         height:7vw;
         font-family: 'Roboto', sans-serif;
         font-weight:600 ;
@@ -213,6 +220,7 @@
     
     .number{
         height: 3vw;
+        font-size: 1.8vw;
         width: 3vw;
         background-color: #9960DE;
         border-radius: 4vw;
@@ -226,10 +234,15 @@
     }
     .txt_fonctionnement{
         color: black;
-        margin-left: 1vw;
-        font-size: 1.5vw;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        font-size: 1.8vw;
     }
     
+    .fas.fa-mobile-alt, .fas.fa-list, .fas.fa-store {
+        margin-left:-0.5vw;
+        margin-right: 0.5vw;
+    }
     
     /*RESTAURANT*/
     
@@ -238,7 +251,7 @@
         background-color: #F6F6F6;
         padding:5vw;
         width: 90vw;
-        padding-bottom: 0px;;
+        padding-bottom: 0px;
       
     }
     
@@ -257,23 +270,23 @@
         padding: 0px;
        margin-top: 4vw;
         box-shadow: 0px 3px 6px #CBCBCB;
-        border-radius: 3vw;
+        border-radius: 2vw;
        
     }
     .nouveau{
         background-color: #99E2D0;
-        width: 4vw;
+        width: 7.5vw;
         
         position: relative;
         bottom: 12vw; 
-        left: 13vw;
+        left: 9.5vw;
         z-index: 30;
        text-align: center;
        font-family: 'Roboto', sans-serif;
        font-weight:500 ;
        padding:1vw;
        color: #008766;
-       font-size: 1vw;;
+       font-size: 1.8vw;;
     }
     img{
         object-fit: cover;
@@ -282,14 +295,14 @@
     .img_restaurant{
         width: 20vw;
         height: 13vw;
-        border-radius: 3vw 3vw 3vw 3vw;
+        border-radius: 2vw 2vw 2vw 2vw;
         
     }
     
     .img{
         width: 100%;
         height: 100%;
-        border-radius: 3vw 3vw 0vw 0vw;
+        border-radius: 2vw 2vw 0vw 0vw;
     }
     
     .info_restaurant{
@@ -297,7 +310,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        border-radius: 0vw 0vw 3vw 3vw;
+        border-radius: 0vw 0vw 2vw 2vw;
         width: 90%;
         justify-content: space-between;
         align-content: center;
@@ -317,7 +330,7 @@
         font-weight:400 ;
         color:black;
         padding: 0vw;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         line-height: 1.2em;
         margin: 0px;
         
