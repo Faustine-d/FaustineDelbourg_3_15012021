@@ -104,7 +104,7 @@ h1{
         display: flex;
         width: 23vw;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: stretch;
     }
 
 .nom_plat{
@@ -112,10 +112,20 @@ font-size: 1.3vw;
 align-self: flex-start;
 }
 
+.plat_texte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
 
 .description_plat, .prix{
     font-size: 1.3vw;
   
+}
+.prix{
+    align-self: flex-end;
 }
 
 /*BOUTON COMMANDER*/
@@ -141,20 +151,17 @@ button.call_to_action{
 
 /*FOOTER*/
 
-
-
-
 footer{
     background-color: #353535;
     font-family: 'Roboto', sans-serif;
     color:white;
-    padding: 2.5vw;
+    padding: 3vw;
     font-size: 1.5vw;
  
 }
 
 .logo_footer{
-    width: 15vw;
+    width: 10vw;
     padding-bottom: 2vw;
 }
 

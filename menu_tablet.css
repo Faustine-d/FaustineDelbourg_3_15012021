@@ -104,18 +104,31 @@ h1{
         display: flex;
         width: 24vw;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: stretch;
+    }
+
+    .plat_texte{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
     }
 
 .nom_plat{
-font-size: 1.8vw;
-align-self: flex-start;
+font-size: 1.9vw;
+
 }
 
 
 .description_plat, .prix{
     font-size: 1.7vw;
   
+}
+
+.prix{
+    align-self:flex-end;
+    padding-left:1vw;
+
 }
 
 /*BOUTON COMMANDER*/
@@ -148,13 +161,14 @@ footer{
     background-color: #353535;
     font-family: 'Roboto', sans-serif;
     color:white;
-    padding: 2.5vw;
-    font-size: 1.5vw;
+    padding: 3vw;
+    font-size: 1.8vw;
+    line-height: 1.8em;
  
 }
 
 .logo_footer{
-    width: 15vw;
+    width: 10vw;
     padding-bottom: 2vw;
 }
 
