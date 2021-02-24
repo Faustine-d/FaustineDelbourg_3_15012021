@@ -97,18 +97,18 @@ h1{
 
 .plat{
         background-color: white;
-        border-radius: 3vw;
-        padding: 2.5vw;
+        border-radius: 2vw;
+        padding: 2vw;
         box-shadow: 0px 3px 7px #DDDDDD;
         margin-bottom: 3vw ;
         display: flex;
-        width: 23vw;
+        width: 25vw;
         justify-content: space-between;
         align-items: stretch;
     }
 
 .nom_plat{
-font-size: 1.3vw;
+font-size: 1.5vw;
 align-self: flex-start;
 }
 
