@@ -227,7 +227,7 @@
         color: white;
         align-content: center;
         justify-content: center;align-items: center;
-        transform: translateX(-1vw);
+        transform: translateX(-1.5vw);
         margin-right: 0.5vw;
     
     }
@@ -268,6 +268,7 @@
         flex-direction: column;
         padding: 0px;
        margin-top: 4vw;
+       margin-bottom: 5vw;
         box-shadow: 0px 3px 6px #CBCBCB;
         border-radius: 2vw;
        
