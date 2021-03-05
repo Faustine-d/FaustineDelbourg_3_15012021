@@ -125,7 +125,7 @@ p.accueil{
     padding-right: 5vw;
     padding-left:5vw;
     padding-bottom: 18vw;
-    width: 100vw;
+    width: 90vw;
     display: flex;
     flex-direction: column;
 }
@@ -206,7 +206,7 @@ button{
     padding-top:14vw;
     padding-right: 5vw;
     padding-left:5vw;
-    width: 100vw;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     padding-bottom: 16vw;
@@ -221,6 +221,7 @@ button{
    margin-top: 7vw;
     box-shadow: 0px 3px 6px #CBCBCB;
     border-radius: 7vw;
+    
     
 }
 .nouveau{

@@ -123,7 +123,32 @@ h2{
     justify-content: space-between;
     align-items: flex-end;
     font-size: 4vw;
+    animation: apparition_progressive 3s ease-in;
+   
 }
+
+@keyframes apparition_progressive{
+    from{ 
+        opacity: 0;
+        transform: translateY(5vw);}
+    to{
+        opacity: 1;
+        transform: translateY(0px);}
+}
+
+article.plat:hover{
+    animation: selection 3s linear;
+
+}
+
+@keyframes selection{
+    from{ 
+        background-color: white;}
+    to{
+        background-color:#99E2D0;}}
+
+
+
 
 h3.nom_plat{
     margin: 0px;
