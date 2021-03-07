@@ -4,6 +4,7 @@ main, html, body{
     width: 100vw;
     font-family: 'Roboto', sans-serif;
     background-color:#F6F6F6;
+    text-overflow: ellipsis;
 }
 
 a:link 
@@ -112,7 +113,10 @@ h2{
     margin-bottom: 5vw;
    
     }
+    .liste_plats{
+        animation: apparition_progressive 3s ease-in;
 
+    }
 .plat{
     background-color: white;
     border-radius: 7vw;
@@ -123,7 +127,8 @@ h2{
     justify-content: space-between;
     align-items: flex-end;
     font-size: 4vw;
-    animation: apparition_progressive 3s ease-in;
+    height: 11vw;
+    text-overflow: ellipsis;
    
 }
 
@@ -136,18 +141,47 @@ h2{
         transform: translateY(0px);}
 }
 
-article.plat:hover{
-    animation: selection 3s linear;
+ 
+.check{
+    display: none;
+   
+}
+
+.plat:active .check{
+visibility: visible !important;
+background-color:#99E2D0;
+color:white;
+font-size: 8vw;
+height: 11vw;
+width: 11vw;
+padding: 5vw;
+transform: translateY(5vw) !important;
+display: flex !important;
+justify-content: center;
+align-items: center;
+margin: 0px;
+margin-right: -5vw;
+border-radius: 0vw 7vw 7vw 0vw;
+
 
 }
 
-@keyframes selection{
+
+
+
+.fas.fa-check-circle{
+    animation: rotation 1s ;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotation{
     from{ 
-        background-color: white;}
+        transform: rotate(90deg);
+       }
     to{
-        background-color:#99E2D0;}}
-
-
+        transform: rotate(0deg);
+       }
+}
 
 
 h3.nom_plat{
