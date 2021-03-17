@@ -95,7 +95,19 @@
     .liste_plats{
         display: flex;
         justify-content: space-between;  
+        animation: apparition_progressive 1s ease-in;
+        transition-delay: 1s, 250ms;
     }
+    
+        /*Animation apparition des plats*/
+        @keyframes apparition_progressive{
+            from{ 
+                opacity: 0;
+                transform: translateY(1vw);}
+            to{
+                opacity: 1;
+                transform: translateY(0px);}
+        }
 
     .plat{
         background-color: white;
@@ -124,8 +136,8 @@
 
 
     .description_plat, .prix{
-        font-size: 1.3vw;
-    
+        font-size: 1.2vw;
+ 
     }
     .prix{
         align-self: flex-end;
