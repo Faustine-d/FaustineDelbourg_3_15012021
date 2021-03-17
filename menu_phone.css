@@ -1,15 +1,14 @@
-main, html, body{
+/*GLOBAL*/
+main, html, body {
     margin: 0px;
     padding: 0px;
     width: 100vw;
     font-family: 'Roboto', sans-serif;
     background-color:#F6F6F6;
-    text-overflow: ellipsis;
 }
 
-a:link 
-{ 
- text-decoration:none; 
+a:link { 
+    text-decoration:none; 
 }
 
 .Site {
@@ -18,7 +17,7 @@ a:link
     flex-direction: column;
   }
   
-  .Site-content {
+.Site-content {
     flex: 1;
   }
 
@@ -36,13 +35,10 @@ header{
     align-content: center;
     align-items: baseline;
     justify-content: center;
-
 }
 
 #logo{
     width: 45vw;
-    /*margin-left: 27.5vw;
-    margin-right: 27.5vw;*/
     margin-top: 5vw;
 }
 
@@ -60,14 +56,13 @@ header{
     width: 100vw;
     margin: 0px;
     padding: 0px;
-    margin-top: 15vw;
-   
-   
+    margin-top: 15vw;  
 }
 
 img{
     object-fit: cover;
 }
+
 #image_hero{
     height: 100%;
     width: 100%;
@@ -92,31 +87,42 @@ img{
     font-size: 7vw;
 }
 
+
 h1{
     font-family: 'Shrikhand', cursive;
     font-size: 7vw;
-    margin-bottom: 0px;;
+    margin-bottom: 0px;
     }
 
 h2{
     text-transform: uppercase;
     font-weight: 300;
-    color: #7B7B7B;
+    color: #000000;
     font-size: 5vw;
     margin-bottom: 2vw;
-    margin-top:12vw;
-  
+    margin-top:12vw; 
 }
+
 .ligne_verte{
     border-bottom: 1.5vw solid #99E2D0 ;
     width: 15vw;
     margin-bottom: 5vw;
-   
     }
-    .liste_plats{
-        animation: apparition_progressive 3s ease-in;
 
+.liste_plats{
+    animation: apparition_progressive 1.5s ease-in;
     }
+
+    /*Animation apparition des plats*/
+    @keyframes apparition_progressive{
+        from{ 
+            opacity: 0;
+            transform: translateY(3vw);}
+        to{
+            opacity: 1;
+            transform: translateY(0px);}
+    }
+
 .plat{
     background-color: white;
     border-radius: 7vw;
@@ -129,60 +135,8 @@ h2{
     font-size: 4vw;
     height: 11vw;
     text-overflow: ellipsis;
-   
+    cursor: pointer;
 }
-
-@keyframes apparition_progressive{
-    from{ 
-        opacity: 0;
-        transform: translateY(5vw);}
-    to{
-        opacity: 1;
-        transform: translateY(0px);}
-}
-
- 
-.check{
-    display: none;
-   
-}
-
-.plat:active .check{
-visibility: visible !important;
-background-color:#99E2D0;
-color:white;
-font-size: 8vw;
-height: 11vw;
-width: 11vw;
-padding: 5vw;
-transform: translateY(5vw) !important;
-display: flex !important;
-justify-content: center;
-align-items: center;
-margin: 0px;
-margin-right: -5vw;
-border-radius: 0vw 7vw 7vw 0vw;
-
-
-}
-
-
-
-
-.fas.fa-check-circle{
-    animation: rotation 1s ;
-    transform-origin: 50% 50%;
-}
-
-@keyframes rotation{
-    from{ 
-        transform: rotate(90deg);
-       }
-    to{
-        transform: rotate(0deg);
-       }
-}
-
 
 h3.nom_plat{
     margin: 0px;
@@ -192,10 +146,88 @@ p.description_plat{
     margin:0px;
     padding: 0px;
     margin-top:1vw;
-    font-weight: 300;
+    font-weight: 400;
     
 }
 
+/*Animation sélection plat*/
+
+    /*gestion du texte*/
+    .plat_texte{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 70vw;
+        padding-right: 4vw;
+    }
+
+    .plat:hover .description_plat {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .plat:hover .nom_plat{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .plat:hover .prix{
+        padding-right: 3vw;
+    }
+
+    /*carré vert*/
+    .check{
+        display: none;
+    
+    }
+
+    .plat:hover .check{
+    visibility: visible !important;
+    background-color:#99E2D0;
+    color:white;
+    font-size: 8vw;
+    height: 11vw;
+    width: 11vw;
+    padding: 5vw;
+    transform: translateY(5vw) !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin-right: -5vw;
+    border-radius: 0vw 7vw 7vw 0vw;
+    text-overflow: ellipsis;
+    animation: largeur 1s;
+    }
+
+    @keyframes largeur{
+        from{
+            width: 0vw;
+        }
+        to{
+            width: 11vw;
+        }
+    }
+
+    .fas.fa-check-circle{
+        animation: rotation 1s ;
+        transform-origin: 50% 50%;
+    }
+
+    @keyframes rotation{
+        from{ 
+            transform: rotate(90deg);
+        }
+        to{
+            transform: rotate(0deg);
+        }
+    }
+
+
+
+/*Bouton commander*/
 .call_to_action{
     height: 14vw ;
     width: 58vw;
@@ -221,6 +253,7 @@ button.call_to_action{
     display: flex;
 }
 
+/*footer*/
 footer{
     background-color: #353535;
     font-family: 'Roboto', sans-serif;
