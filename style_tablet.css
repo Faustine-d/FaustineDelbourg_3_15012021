@@ -43,21 +43,18 @@
         font-size: 1.8vw;
         font-family: 'Roboto', sans-serif;
         font-weight:600 ;
-       
+        padding-top: 2vw;
         margin: 0px;
+       line-height: 0.5vw;
     }
     
     p{
-        margin-block-start: 0px;
-        margin-block-end: 0px;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
+        line-height: 1vw;
     }
     
     
     
-    a:link 
-    { 
+    a:link { 
      text-decoration:none;
     } 
     
@@ -111,7 +108,7 @@
         font-weight: 500;
         padding-left: 4.25vw;
         padding: 0px;
-        padding-top: 2.5vw;
+        padding-top: 1vw;
     }
 
     .fas.fa-map-marker-alt{
@@ -135,7 +132,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 2.25vw;
         font-weight: 200 ;
-        padding-bottom: 4vw;
+        padding-bottom: 2vw;
         margin: 0vw;
         margin-top:2vw;
         color: #353535;

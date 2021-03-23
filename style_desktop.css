@@ -40,13 +40,15 @@
         font-family: 'Roboto', sans-serif;
         font-weight:600 ;
         margin: 0px;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+      
     }
 
     p{
-        margin-block-start: 0px;
-        margin-block-end: 0px;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
+        margin: 0px;
+        line-height: 3vw;
+        
     }
 
     a:link { 
@@ -104,7 +106,8 @@
         font-weight: 500;
         padding-left: 4.25vw;
         padding: 0px;
-        padding-top: 1.5vw;
+        padding-top:1vw;
+        
     }
 
     /*réservation*/
@@ -214,7 +217,8 @@
         margin-left: 1vw;
         font-size: 1.5vw;
     }
-
+    
+   
 
     /*RESTAURANT*/
 
@@ -303,9 +307,12 @@
         color:black;
         padding: 0vw;
         font-size: 1.4vw;
-        line-height: 1.4em;
+        line-height: 1em;
         margin: 0px;
+      
     }
+
+  
 
     /*FOOTER*/
     footer{

@@ -7,7 +7,7 @@
     }
 
     p{
-        line-height: 1vw;
+        line-height: normal;
     }
     
     /*Header*/
@@ -104,7 +104,11 @@
     justify-content: space-between;
     align-items: stretch;
     height:5.5vw;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     }
+
 
     .plat_texte{
     display: flex;
