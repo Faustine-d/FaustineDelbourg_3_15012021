@@ -5,7 +5,7 @@ main, html, body{
 }
 
 p{
-    line-height: 1vw;
+    line-height: normal;
 }
 
 a:link 
@@ -68,6 +68,7 @@ p.geolocalisation{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     padding-left: 4.25vw;
+    line-height: 1vw;
 }
 
 #reservation{
@@ -289,6 +290,8 @@ h4{
     font-family: 'Roboto', sans-serif;
     font-weight:600 ;
     margin: 0px;
+    line-height: 1vw;
+    padding-top: 7vw;
 }
 
 footer{
@@ -306,4 +309,9 @@ footer{
 
 .fas.fa-utensils, .fas.fa-hands-helping, .fas.fa-map-marker-alt{
     margin-right: 4vw;
+}
+
+.contact{
+    color:white;
+   
 }
