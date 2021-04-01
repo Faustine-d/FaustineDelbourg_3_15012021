@@ -248,6 +248,10 @@ p.description_plat{
     justify-content: center;
     margin-bottom: 22vw;
 }
+.call_to_action:hover{
+    background: linear-gradient(#FF79DA99, #9356DC99);
+    box-shadow: 0px 3px 6px #9D9D9D;
+}
 
 button.call_to_action{
     display: flex;

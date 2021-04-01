@@ -306,13 +306,7 @@
         padding: 5%;
         
     }
-    
-    .like_restaurant{
-        display: flex;
-        align-content: center;
-        font-size:2vw;
-    }
-    
+
     .txt_restaurant{
         font-family: 'Roboto', sans-serif;
         font-weight:400 ;
@@ -321,8 +315,26 @@
         font-size: 1.8vw;
         line-height: 1.2em;
         margin: 0px;
+        white-space: space normal;
+       
+    
     
     }
+    
+    /*like*/
+    .like_restaurant{
+        display: flex;
+        align-content: center;
+        font-size:2vw;
+    }
+
+    /*cœeur contour*/
+    .far.fa-heart{
+        left: 2vw;
+        font-size:2vw;
+      }
+    
+   
     
     /*FOOTER*/
     
