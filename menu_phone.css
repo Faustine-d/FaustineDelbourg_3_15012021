@@ -83,9 +83,29 @@ img{
     align-items: baseline;
 }
 
-.far.fa-heart{
+.far.fa-heart, .fas.fa-heart{
     font-size: 7vw;
-}
+    position: absolute;
+    margin-top: -5.5vw;
+    left: 86vw;
+    }
+
+    .far.fa-heart{
+        font-size: 7vw;
+        visibility: visible;
+        background-color:#F6F6F6;
+        z-index: 100;
+        color: #000000; 
+    }
+
+    .far.fa-heart:hover{
+        display: none;}
+
+    .fas.fa-heart{ 
+        color: linear-gradient(#FF79DA, #9356DC);
+        background: -webkit-linear-gradient(#FF79DA, #9356DC);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
 
 
 h1{

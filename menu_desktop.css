@@ -65,9 +65,25 @@
         align-items: baseline;
     }
 
+      
     .far.fa-heart{
         font-size: 3vw;
+        visibility: visible;
+        background-color:#F6F6F6;
+        z-index: 100;
+        color: #000000;
+        
     }
+
+    .far.fa-heart:hover{
+        display: none;}
+
+    .fas.fa-heart{ 
+        color: linear-gradient(#FF79DA, #9356DC);
+        background: -webkit-linear-gradient(#FF79DA, #9356DC);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+
 
 
     h1{
