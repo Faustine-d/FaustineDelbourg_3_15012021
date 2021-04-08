@@ -206,7 +206,7 @@
         color: #7E7E7E;
         margin-left: 2vw;
     }
-    
+   
     .number{
         height: 3vw;
         font-size: 1.8vw;
@@ -260,6 +260,7 @@
        margin-bottom: 5vw;
         box-shadow: 0px 3px 6px #CBCBCB;
         border-radius: 2vw;
+        
        
     }
     .nouveau{
@@ -268,14 +269,14 @@
         position: relative;
         bottom: 12vw; 
         left: 9.5vw;
-        z-index: 30;
-       text-align: center;
-       font-family: 'Roboto', sans-serif;
-       font-weight:500 ;
-       padding:1vw;
-       color: #008766;
-       font-size: 1.8vw;;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight:500 ;
+        padding:1vw;
+        color: #008766;
+        font-size: 1.8vw;
     }
+
     img{
         object-fit: cover;
     }
@@ -284,7 +285,6 @@
         width: 20vw;
         height: 13vw;
         border-radius: 2vw 2vw 2vw 2vw;
-        
     }
     
     .img{
