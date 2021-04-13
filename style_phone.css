@@ -310,7 +310,7 @@ img{
 
 /*cœeur plein*/
 .fas.fa-heart{
-    color: linear-gradient(#FF79DA, #9356DC);
+    /*color: linear-gradient(#FF79DA, #9356DC);*/
     background: -webkit-linear-gradient(#FF79DA, #9356DC);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -376,7 +376,7 @@ footer{
 
 .chargement{
     font-size: 150px;
-    color: linear-gradient(#FF79DA, #9356DC);
+    /*color: linear-gradient(#FF79DA, #9356DC);*/
     background: -webkit-linear-gradient(#FF79DA, #9356DC);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
